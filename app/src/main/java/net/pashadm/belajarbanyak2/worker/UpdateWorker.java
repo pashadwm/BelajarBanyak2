@@ -31,7 +31,7 @@ public class UpdateWorker extends Worker {
     @Override
     public Result doWork() {
 
-//        todo 80 buat try catch. mas acil gapake Worker.
+//        todo 80 buat try catch. mas acil gapake Worker
         try {
 //            todo 83 ambil string dari noteadapter
             String dId = getInputData().getString(NoteAdapter.DATAID);
